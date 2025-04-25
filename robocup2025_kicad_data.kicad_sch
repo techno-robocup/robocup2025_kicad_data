@@ -962,6 +962,105 @@
 				)
 			)
 		)
+		(symbol "robo:LiPo_battery"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LiPo_battery_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LiPo_battery_1_1"
+				(pin power_in line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "robo:RASPBERRY_PI_4B_4GB"
 			(pin_names
 				(offset 1.016)
@@ -2159,40 +2258,36 @@
 			)
 		)
 	)
-	(junction
-		(at 147.32 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d1c35f3-1ce1-4d5a-8c90-6bc7ed8d81a7")
-	)
-	(junction
-		(at 82.55 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbf3ef19-4d01-4ae9-9c09-f6599c4db955")
-	)
 	(no_connect
 		(at 80.01 66.04)
 		(uuid "06e1fa4a-dc65-44da-b705-0692b6694084")
 	)
 	(no_connect
-		(at 149.86 60.96)
+		(at 105.41 60.96)
 		(uuid "07c31d9b-8eca-4763-abda-1a7cf91d53d4")
 	)
 	(no_connect
-		(at 149.86 40.64)
+		(at 64.77 121.92)
+		(uuid "0a2703ed-3d7d-46a2-87ad-6e396cae30f9")
+	)
+	(no_connect
+		(at 105.41 40.64)
 		(uuid "0e41948e-519b-4efd-b6e0-5f47552fde10")
 	)
 	(no_connect
-		(at 149.86 58.42)
+		(at 86.36 121.92)
+		(uuid "0fce1ec2-8d19-411c-bcc2-a0f273d13715")
+	)
+	(no_connect
+		(at 105.41 58.42)
 		(uuid "16938e73-bf61-44e5-8057-d8e8ce8b97ed")
 	)
 	(no_connect
-		(at 149.86 55.88)
+		(at 105.41 55.88)
 		(uuid "1849a55c-16df-4c75-91a2-181fd0f02bc9")
 	)
 	(no_connect
-		(at 190.5 48.26)
+		(at 146.05 48.26)
 		(uuid "1cfaf3e9-b35b-46f1-b3ad-92d1a1692fcc")
 	)
 	(no_connect
@@ -2200,19 +2295,19 @@
 		(uuid "1d55955b-0e98-4a2b-a641-d70156d1c528")
 	)
 	(no_connect
-		(at 80.01 91.44)
-		(uuid "1d6536f6-f91b-48a7-890f-2c80a0e522d8")
+		(at 52.07 121.92)
+		(uuid "2316fce8-5288-4e71-b8e5-8cffe2f3b638")
 	)
 	(no_connect
 		(at 80.01 83.82)
 		(uuid "27244554-712c-41c6-b394-c3047758ab26")
 	)
 	(no_connect
-		(at 190.5 40.64)
+		(at 146.05 40.64)
 		(uuid "2a67db59-5961-4491-8204-e3f7614110c0")
 	)
 	(no_connect
-		(at 149.86 73.66)
+		(at 105.41 73.66)
 		(uuid "2c9838d9-455d-4a9b-9daf-ea2fd96a93b3")
 	)
 	(no_connect
@@ -2220,23 +2315,23 @@
 		(uuid "2da88076-76ee-4e10-9772-f589ea7bc508")
 	)
 	(no_connect
-		(at 149.86 71.12)
+		(at 105.41 71.12)
 		(uuid "322a745f-f3e2-4e7a-9683-db0f80d47479")
 	)
 	(no_connect
-		(at 149.86 78.74)
+		(at 105.41 78.74)
 		(uuid "352ec25e-a4c9-4c97-97ca-ba746153941c")
 	)
 	(no_connect
-		(at 190.5 81.28)
+		(at 146.05 81.28)
 		(uuid "37ea851f-4c1d-47d1-aa5e-35c683635482")
 	)
 	(no_connect
-		(at 190.5 73.66)
+		(at 146.05 73.66)
 		(uuid "3b172af3-b1e6-4252-831f-837172146dd2")
 	)
 	(no_connect
-		(at 190.5 60.96)
+		(at 146.05 60.96)
 		(uuid "3c12cd70-0ec1-4cec-b106-7aba92e57a80")
 	)
 	(no_connect
@@ -2244,19 +2339,19 @@
 		(uuid "3de731ac-3e61-44e1-bcfa-f31bd46df8e5")
 	)
 	(no_connect
-		(at 149.86 68.58)
+		(at 105.41 68.58)
 		(uuid "4a1357dc-45cb-4dd3-bd2d-f02449adf85d")
 	)
 	(no_connect
-		(at 149.86 45.72)
+		(at 105.41 45.72)
 		(uuid "52f59df1-8a1d-4ddd-99af-452958c2d2c1")
 	)
 	(no_connect
-		(at 149.86 66.04)
+		(at 105.41 66.04)
 		(uuid "56ace5da-01d9-49ff-b3ab-6d69fdf8cc3f")
 	)
 	(no_connect
-		(at 149.86 53.34)
+		(at 105.41 53.34)
 		(uuid "573dcc7d-9af7-4d9c-ac87-7391736f7f9b")
 	)
 	(no_connect
@@ -2268,7 +2363,7 @@
 		(uuid "5a942d44-6d8c-46b8-b53f-5d5349c3a7dc")
 	)
 	(no_connect
-		(at 190.5 66.04)
+		(at 146.05 66.04)
 		(uuid "62c868f6-cb1d-4e2b-9859-ee6ad7ffcf97")
 	)
 	(no_connect
@@ -2280,7 +2375,11 @@
 		(uuid "69ccaa7d-8874-4558-a274-3cc238e489a1")
 	)
 	(no_connect
-		(at 190.5 53.34)
+		(at 40.64 121.92)
+		(uuid "6a4a4dbb-f80a-47ea-a85e-56726ad9a0e6")
+	)
+	(no_connect
+		(at 146.05 53.34)
 		(uuid "6bd92ec8-6f35-4d1d-984c-347326c572b4")
 	)
 	(no_connect
@@ -2288,11 +2387,11 @@
 		(uuid "73208d15-d1f2-4a4c-8bb9-b23e8ebc536c")
 	)
 	(no_connect
-		(at 149.86 43.18)
+		(at 105.41 43.18)
 		(uuid "750f4820-4907-406d-9c7e-bac574b0e36c")
 	)
 	(no_connect
-		(at 190.5 76.2)
+		(at 146.05 76.2)
 		(uuid "786dd9c6-d204-4136-b568-ac2f6c32e9c8")
 	)
 	(no_connect
@@ -2304,20 +2403,24 @@
 		(uuid "7fa0defc-6fcc-4f56-aadf-fdd7184852f0")
 	)
 	(no_connect
-		(at 190.5 38.1)
+		(at 146.05 38.1)
 		(uuid "869982c0-151d-4fef-928f-4b2fca5396c1")
 	)
 	(no_connect
-		(at 190.5 68.58)
+		(at 146.05 68.58)
 		(uuid "8899916d-867c-42fb-a84d-4f5ef73c2f81")
 	)
 	(no_connect
-		(at 149.86 81.28)
+		(at 105.41 81.28)
 		(uuid "8baa7e25-8317-4ce3-9c2d-59438a0ae494")
 	)
 	(no_connect
-		(at 149.86 48.26)
+		(at 105.41 48.26)
 		(uuid "92c09ab7-301c-4d93-98cd-93df5b48260b")
+	)
+	(no_connect
+		(at 39.37 121.92)
+		(uuid "94e573b3-76d3-44be-af87-c53d86492f95")
 	)
 	(no_connect
 		(at 80.01 53.34)
@@ -2332,7 +2435,7 @@
 		(uuid "98389b4b-197c-465c-b8fa-00952d0ff491")
 	)
 	(no_connect
-		(at 190.5 63.5)
+		(at 146.05 63.5)
 		(uuid "a6246f78-5afd-4443-84cc-270c42da2202")
 	)
 	(no_connect
@@ -2352,12 +2455,16 @@
 		(uuid "bbf7fa15-b37b-498e-9357-a1e56f83cf13")
 	)
 	(no_connect
-		(at 190.5 71.12)
+		(at 146.05 71.12)
 		(uuid "c21b8b5a-ca85-4257-abbb-5356eb3ad4ed")
 	)
 	(no_connect
 		(at 29.21 76.2)
 		(uuid "c4186b07-36ed-4b22-a7e2-27bfb430ffc7")
+	)
+	(no_connect
+		(at 76.2 121.92)
+		(uuid "c83b59c0-0728-4c96-bd2b-e5fcdb583f17")
 	)
 	(no_connect
 		(at 29.21 58.42)
@@ -2380,7 +2487,7 @@
 		(uuid "d9b306ea-22be-40ea-9e20-fc33eb198c61")
 	)
 	(no_connect
-		(at 190.5 58.42)
+		(at 146.05 58.42)
 		(uuid "da9f616a-c8ef-435c-bcad-f2b4153f9ca7")
 	)
 	(no_connect
@@ -2400,11 +2507,19 @@
 		(uuid "e07c93de-d019-4912-abde-d879bc94cfc0")
 	)
 	(no_connect
+		(at 53.34 121.92)
+		(uuid "e4e54751-6abb-44fe-a4c5-b5deb99cc951")
+	)
+	(no_connect
+		(at 87.63 121.92)
+		(uuid "e62c4f91-2026-4b75-a675-e5a3f0467da9")
+	)
+	(no_connect
 		(at 29.21 48.26)
 		(uuid "e81caf29-378b-4c40-852a-a1a3674ccc46")
 	)
 	(no_connect
-		(at 149.86 50.8)
+		(at 105.41 50.8)
 		(uuid "ea897b18-9543-49eb-ae82-c5d1560392bc")
 	)
 	(no_connect
@@ -2412,15 +2527,19 @@
 		(uuid "ec242caa-b5dd-4bfc-b9e8-1104d56df05d")
 	)
 	(no_connect
-		(at 149.86 76.2)
+		(at 105.41 76.2)
 		(uuid "efce880f-6a8c-4152-bbcf-45b89cb004b3")
 	)
 	(no_connect
-		(at 190.5 78.74)
+		(at 146.05 78.74)
 		(uuid "f3f773ee-0d7c-4437-a14a-b8b76cc74952")
 	)
 	(no_connect
-		(at 190.5 83.82)
+		(at 74.93 121.92)
+		(uuid "f4466d1f-b6dd-4b2c-8e3c-cb1fbb0a288e")
+	)
+	(no_connect
+		(at 146.05 83.82)
 		(uuid "f5767039-3215-438b-89d2-7f9e304aeb45")
 	)
 	(no_connect
@@ -2428,24 +2547,38 @@
 		(uuid "fa1388b5-3e48-4368-ac70-7fb0b77b8304")
 	)
 	(no_connect
-		(at 190.5 55.88)
+		(at 146.05 55.88)
 		(uuid "fa92e5dc-a0af-4372-ba01-98d88421439d")
 	)
 	(no_connect
-		(at 190.5 45.72)
+		(at 146.05 45.72)
 		(uuid "faa6dff0-79cf-4138-996b-639ddc69551b")
 	)
 	(no_connect
-		(at 149.86 63.5)
+		(at 63.5 121.92)
+		(uuid "fbc39ea9-7140-4b35-9f43-710823a5c54f")
+	)
+	(no_connect
+		(at 105.41 63.5)
 		(uuid "fd5c917a-c396-4e84-aadc-0ae2ffbb5244")
 	)
 	(no_connect
-		(at 149.86 38.1)
+		(at 105.41 38.1)
 		(uuid "fd74f234-429a-4cff-8f4f-77e36cca4ea7")
 	)
 	(wire
 		(pts
-			(xy 190.5 50.8) (xy 194.31 50.8)
+			(xy 189.23 43.18) (xy 193.04 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3943c77b-edf5-471d-99e5-ec2cb4ac6365")
+	)
+	(wire
+		(pts
+			(xy 146.05 50.8) (xy 149.86 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2598,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 33.02) (xy 83.82 33.02)
+			(xy 255.27 43.18) (xy 251.46 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537d5a93-c054-48ae-9f3d-19bcf1de7bd2")
+	)
+	(wire
+		(pts
+			(xy 80.01 33.02) (xy 83.82 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2485,7 +2628,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 83.82) (xy 147.32 83.82)
+			(xy 101.6 83.82) (xy 105.41 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2495,7 +2638,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 43.18) (xy 194.31 43.18)
+			(xy 255.27 40.64) (xy 251.46 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abe73d7-18ac-4068-b2a1-b4cab835aede")
+	)
+	(wire
+		(pts
+			(xy 146.05 43.18) (xy 149.86 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2505,27 +2658,225 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 83.82) (xy 149.86 83.82)
+			(xy 251.46 38.1) (xy 255.27 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9baa673a-ba8b-4e1b-8883-dbfc3cd8ef04")
+		(uuid "a23fe46a-7878-4e81-9373-3f6dfa0e5bdd")
 	)
 	(wire
 		(pts
-			(xy 80.01 33.02) (xy 82.55 33.02)
+			(xy 175.26 43.18) (xy 179.07 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf192304-bbfe-4100-b038-3dfdb4f3375a")
+		(uuid "c642dcdc-d034-4468-ae04-ac60c2e2f193")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 68.58 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18d3ada9-344a-4e9f-82cb-e1dc1ba6fc04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 128.7757 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LiPo+"
+		(shape input)
+		(at 67.31 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25be8421-0bae-4ec7-8d74-dc7861180f2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 130.5295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 255.27 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ba85cbd-30b4-4798-abbf-57b3c0c77909")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.1257 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LiPo+"
+		(shape input)
+		(at 78.74 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d539a58-1077-4f9b-b0f3-cf715d805806")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.74 130.5295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 193.04 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41afe33b-ee50-4af3-a1b5-36308d21e1f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.8957 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LiPo+"
+		(shape input)
+		(at 55.88 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "571af0bb-09e7-4109-9293-c6cc7c5e0248")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 130.5295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "rasp_5V"
 		(shape input)
-		(at 146.05 83.82 180)
+		(at 255.27 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "636feb84-2002-44cf-82b6-8c048cd76a2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.6332 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 57.15 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "638f1c89-8d72-43db-b6e6-b4df1ebbf742")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 128.7757 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LiPo+"
+		(shape input)
+		(at 90.17 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74a2c23e-5a14-4b68-90c8-7ddc2885acd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 130.5295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "rasp_5V"
+		(shape input)
+		(at 101.6 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2535,7 +2886,7 @@
 		)
 		(uuid "7c425f5e-df51-43dd-8ace-f51eccfd1201")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.6868 83.82 0)
+			(at 91.2368 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2569,7 +2920,7 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 194.31 43.18 0)
+		(at 149.86 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2579,7 +2930,7 @@
 		)
 		(uuid "98873e3c-320c-47f6-a967-ab3f21426e43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.9141 43.18 0)
+			(at 157.4641 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +2942,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 194.31 50.8 0)
+		(at 149.86 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2601,7 +2952,73 @@
 		)
 		(uuid "9948a315-2e42-4e23-8fdc-efdc67a4b932")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.9746 50.8 0)
+			(at 157.5246 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 80.01 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f1a43b3-94d3-4a64-8342-961dce50336e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 128.7757 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 91.44 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a031ae5a-4421-4de3-a358-3484c31aa592")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 128.7757 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 80.01 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a248619d-0d44-4188-9c61-1b3aaf09b115")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.8657 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,6 +3050,72 @@
 			)
 		)
 	)
+	(global_label "LiPo+"
+		(shape input)
+		(at 43.18 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc3e84c9-13c2-4a24-829d-883f217e0818")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 130.5295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LiPo+"
+		(shape input)
+		(at 175.26 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d45012f8-e316-4af5-9fdd-08ea64c8d90f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.6505 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LiPo+"
+		(shape input)
+		(at 255.27 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7eb419b-38c9-4353-af4d-efa8dfa548d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.8795 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape bidirectional)
 		(at 25.4 38.1 180)
@@ -2655,18 +3138,40 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 44.45 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f18869be-0036-412d-a90f-f347646f4647")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 128.7757 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 147.32 83.82 0)
+		(at 251.46 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0d725bf2-ff74-4ae4-8827-2dd73f63a9ea")
-		(property "Reference" "#FLG2"
-			(at 147.32 81.915 0)
+		(uuid "00ce5d4d-0fb1-48ca-91f0-205352ea917c")
+		(property "Reference" "#FLG1"
+			(at 251.46 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +3180,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 147.32 78.74 0)
+			(at 251.46 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +3188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 83.82 0)
+			(at 251.46 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +3197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 83.82 0)
+			(at 251.46 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +3206,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 147.32 83.82 0)
+			(at 251.46 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,12 +3215,88 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c2292aa-2e66-4df9-9f47-0586fc6b4c9f")
+			(uuid "596dd656-1a4b-4fad-9500-4ae1493ab6e7")
 		)
 		(instances
 			(project ""
 				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
-					(reference "#FLG2")
+					(reference "#FLG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robo:servo_motor")
+		(at 41.91 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06a3ff39-a404-4fcb-ad09-8aabdf0d82ac")
+		(property "Reference" "M1"
+			(at 45.72 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 45.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "4534ee0a-6ce2-413e-8d7e-bd49bd5f1f50")
+		)
+		(pin ""
+			(uuid "0917a3f4-cd45-4b68-8b83-9846fd8d1fa2")
+		)
+		(pin "1"
+			(uuid "84333df8-1824-485b-800d-9f2bf821f69d")
+		)
+		(pin ""
+			(uuid "44c3f8da-caf2-45ae-82f2-b0fff6e4a1e6")
+		)
+		(instances
+			(project ""
+				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -3068,7 +3649,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1a0b441e-6af2-4a8c-be74-c2b5ac6605d3")
+		(uuid "4d3d4893-a4b0-4b3b-897c-0e44aedf5c98")
 		(property "Reference" "M5"
 			(at 92.71 117.4749 0)
 			(effects
@@ -3114,20 +3695,20 @@
 				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "62659f1c-ea64-4af7-976d-d66c48f20ea9")
-		)
 		(pin "1"
-			(uuid "25020e06-f740-4944-83e0-374973cb51d5")
+			(uuid "bff3f8b0-e005-496f-a3cb-a461295551cd")
 		)
 		(pin ""
-			(uuid "a617bbc5-15b0-46aa-b4d1-a5c8666554d0")
+			(uuid "44ef154c-e5d8-49ef-8d4e-5323cd6d2fd7")
 		)
 		(pin ""
-			(uuid "aed9a867-f894-47ed-bc6e-29708d1350b5")
+			(uuid "86749250-d79a-430e-873f-510b202b4840")
+		)
+		(pin ""
+			(uuid "56e27c09-0b8d-4e7a-b0b6-f5a5e403a503")
 		)
 		(instances
-			(project "robocup2025_kicad_data"
+			(project ""
 				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
 					(reference "M5")
 					(unit 1)
@@ -3136,35 +3717,33 @@
 		)
 	)
 	(symbol
-		(lib_id "robo:servo_motor")
-		(at 41.91 118.11 0)
+		(lib_id "robo:LiPo_battery")
+		(at 184.15 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "64316711-8d7b-44e9-b00f-58194ee5cd22")
-		(property "Reference" "M1"
-			(at 45.72 117.4749 0)
+		(uuid "7281e502-93fa-469b-87de-5d201293fd89")
+		(property "Reference" "L1"
+			(at 184.15 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 45.72 119.38 0)
+			(at 184.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 118.11 0)
+			(at 184.15 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +3752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 118.11 0)
+			(at 184.15 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3761,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 118.11 0)
+			(at 184.15 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,22 +3769,16 @@
 				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "87bcad84-5e0c-466a-9101-ea7a062eaf9b")
-		)
 		(pin "1"
-			(uuid "6f57bfdd-0eb7-489c-b40f-f2d114f24a1e")
+			(uuid "53450699-2281-4f7a-9374-72f069aae44e")
 		)
-		(pin ""
-			(uuid "8154e95e-d924-405d-a77b-85815789759f")
-		)
-		(pin ""
-			(uuid "82ad22ef-75a0-4d26-9afe-b745c030f563")
+		(pin "2"
+			(uuid "e285419e-246c-4c60-bb42-5b740832a780")
 		)
 		(instances
 			(project ""
 				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
-					(reference "M1")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -3213,7 +3786,7 @@
 	)
 	(symbol
 		(lib_id "robo:ESP32-DEVKITC-32E")
-		(at 170.18 60.96 0)
+		(at 125.73 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3222,7 +3795,7 @@
 		(fields_autoplaced yes)
 		(uuid "843b0de5-7466-40e0-aa29-8d21cc469880")
 		(property "Reference" "U2"
-			(at 170.18 30.48 0)
+			(at 125.73 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3230,7 +3803,7 @@
 			)
 		)
 		(property "Value" "ESP32-DEVKITC-32E"
-			(at 170.18 33.02 0)
+			(at 125.73 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +3811,7 @@
 			)
 		)
 		(property "Footprint" "ESP32-DEVKITC-32E:MODULE_ESP32-DEVKITC-32E"
-			(at 170.18 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +3830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +3839,7 @@
 			)
 		)
 		(property "MF" "Espressif Systems"
-			(at 170.18 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +3849,7 @@
 			)
 		)
 		(property "Description_1" "\n- ESP32-WROOM-32E Transceiver; 802.11 b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart Ready 4.x Dual Mode 2.4GHz Evaluation Board\n"
-			(at 170.18 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +3859,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 170.18 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,7 +3869,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 170.18 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3879,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-DEVKITC-32E/Espressif+Systems/view-part/?ref=eda"
-			(at 170.18 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3889,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 170.18 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,7 +3899,7 @@
 			)
 		)
 		(property "PARTREV" "1.4"
-			(at 170.18 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,7 +3909,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-DEVKITC-32E/Espressif+Systems/view-part/?ref=snap"
-			(at 170.18 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +3919,7 @@
 			)
 		)
 		(property "MP" "ESP32-DEVKITC-32E"
-			(at 170.18 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +3929,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 170.18 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3939,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Espressif Systems"
-			(at 170.18 60.96 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,226 +4074,6 @@
 	(symbol
 		(lib_name "robo:servo_motor")
 		(lib_id "robo:servo_motor")
-		(at 54.61 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bce2a80d-3fe6-4886-9120-a69c004237bb")
-		(property "Reference" "M2"
-			(at 58.42 117.4749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 58.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "02784bdd-6ea7-4168-be2d-b02bf6028d7e")
-		)
-		(pin "1"
-			(uuid "23991822-de73-4bac-b33e-07de59326958")
-		)
-		(pin ""
-			(uuid "8cecc1fb-53bd-4570-9e77-47640fd1268f")
-		)
-		(pin ""
-			(uuid "3a494f46-dd62-4b6e-832a-93c3403897b6")
-		)
-		(instances
-			(project "robocup2025_kicad_data"
-				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
-					(reference "M2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "robo:servo_motor")
-		(lib_id "robo:servo_motor")
-		(at 77.47 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca044880-c0c9-4ff8-bf7f-39b607ba7c41")
-		(property "Reference" "M4"
-			(at 81.28 117.4749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 81.28 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "120ccfc3-e917-497c-be3f-22f4e548c2df")
-		)
-		(pin "1"
-			(uuid "05a19572-de1d-4d4a-a5d1-6e9cb10c8a54")
-		)
-		(pin ""
-			(uuid "aaa7ccf6-80f4-4c4f-80fd-865560aefd7a")
-		)
-		(pin ""
-			(uuid "df045e76-59c8-42bf-80ba-6c3e3197ba4e")
-		)
-		(instances
-			(project "robocup2025_kicad_data"
-				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
-					(reference "M4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 82.55 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e237d21f-329e-4fef-80b6-ae531e28491f")
-		(property "Reference" "#FLG1"
-			(at 82.55 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 82.55 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 82.55 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c69ebcf-7d2a-4d8e-82a9-002c72629df4")
-		)
-		(instances
-			(project ""
-				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
-					(reference "#FLG1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "robo:servo_motor")
-		(lib_id "robo:servo_motor")
 		(at 66.04 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3728,7 +4081,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eac1d80d-4b6b-4d7c-8b97-6cad0c000f5e")
+		(uuid "9044e0c7-e5bb-4e71-b441-e5e41344ca37")
 		(property "Reference" "M3"
 			(at 69.85 117.4749 0)
 			(effects
@@ -3775,21 +4128,307 @@
 			)
 		)
 		(pin ""
-			(uuid "8567ee63-e513-46a6-a730-97e1ebca63b6")
+			(uuid "1c61509a-67bc-4315-b2e4-0a9f2c890d0e")
+		)
+		(pin ""
+			(uuid "d1c858e2-0cf7-4220-a863-f912a6829473")
+		)
+		(pin ""
+			(uuid "fccc5c90-0d64-4556-afaf-0867fc167a8b")
 		)
 		(pin "1"
-			(uuid "97f5cdac-23e1-423a-85c5-ae57563edec8")
-		)
-		(pin ""
-			(uuid "6ab92fb1-f638-4b0f-a9f6-5ef2f4c48e5a")
-		)
-		(pin ""
-			(uuid "27cd4a22-bedf-4cad-b607-233f8c00a639")
+			(uuid "0582c1e0-c903-4245-bc7c-73aefda15548")
 		)
 		(instances
-			(project "robocup2025_kicad_data"
+			(project ""
 				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
 					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 251.46 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9300345a-3762-44a7-b75c-f0afaf57be5e")
+		(property "Reference" "#FLG2"
+			(at 251.46 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 251.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "272c8946-7281-482f-a3bc-1e9e3a86a883")
+		)
+		(instances
+			(project ""
+				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
+					(reference "#FLG2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "robo:servo_motor")
+		(lib_id "robo:servo_motor")
+		(at 77.47 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6b16997-b650-400c-b9a0-8886b088adb1")
+		(property "Reference" "M4"
+			(at 81.28 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 81.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3495e5e4-d8db-46aa-a94f-f9cbb756e0c0")
+		)
+		(pin ""
+			(uuid "e18cb004-aaea-424a-ba81-fdc3070309c8")
+		)
+		(pin ""
+			(uuid "65a51052-b2a7-48d2-a6e4-3d990cd0c013")
+		)
+		(pin ""
+			(uuid "a9097dc7-e767-4066-a06e-ca64d11a59c3")
+		)
+		(instances
+			(project ""
+				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "robo:servo_motor")
+		(lib_id "robo:servo_motor")
+		(at 54.61 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d391f770-4936-455d-b829-5b8bec23f66b")
+		(property "Reference" "M2"
+			(at 58.42 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 58.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32e215a5-bdd2-4aef-b338-420cd9404997")
+		)
+		(pin ""
+			(uuid "a6a18097-e13a-46f4-a2ef-2258ef3a4c39")
+		)
+		(pin ""
+			(uuid "113338ec-c4ca-43fd-ab05-f8f4f166e0a9")
+		)
+		(pin ""
+			(uuid "8afa9d2e-980d-4b49-85dd-c70f36177c35")
+		)
+		(instances
+			(project ""
+				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 251.46 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe0b8749-2d32-4954-84e1-eab5bdcbdf57")
+		(property "Reference" "#FLG3"
+			(at 251.46 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 251.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2c1efb1-a6ba-4711-9caf-6b0becdcbab7")
+		)
+		(instances
+			(project ""
+				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
+					(reference "#FLG3")
 					(unit 1)
 				)
 			)
