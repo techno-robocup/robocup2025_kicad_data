@@ -2023,6 +2023,141 @@
 				)
 			)
 		)
+		(symbol "robo:servo_motor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "servo_motor_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "servo_motor_1_1"
+				(pin output line
+					(at -1.27 -3.81 90)
+					(length 2.54)
+					(name "Feed_back"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -3.81 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -3.81 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -3.81 90)
+					(length 2.54)
+					(name "PULSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 147.32 83.82)
@@ -2924,6 +3059,159 @@
 		)
 	)
 	(symbol
+		(lib_name "robo:servo_motor")
+		(lib_id "robo:servo_motor")
+		(at 88.9 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a0b441e-6af2-4a8c-be74-c2b5ac6605d3")
+		(property "Reference" "M5"
+			(at 92.71 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 92.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "62659f1c-ea64-4af7-976d-d66c48f20ea9")
+		)
+		(pin "1"
+			(uuid "25020e06-f740-4944-83e0-374973cb51d5")
+		)
+		(pin ""
+			(uuid "a617bbc5-15b0-46aa-b4d1-a5c8666554d0")
+		)
+		(pin ""
+			(uuid "aed9a867-f894-47ed-bc6e-29708d1350b5")
+		)
+		(instances
+			(project "robocup2025_kicad_data"
+				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
+					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robo:servo_motor")
+		(at 41.91 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64316711-8d7b-44e9-b00f-58194ee5cd22")
+		(property "Reference" "M1"
+			(at 45.72 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 45.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "87bcad84-5e0c-466a-9101-ea7a062eaf9b")
+		)
+		(pin "1"
+			(uuid "6f57bfdd-0eb7-489c-b40f-f2d114f24a1e")
+		)
+		(pin ""
+			(uuid "8154e95e-d924-405d-a77b-85815789759f")
+		)
+		(pin ""
+			(uuid "82ad22ef-75a0-4d26-9afe-b745c030f563")
+		)
+		(instances
+			(project ""
+				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "robo:ESP32-DEVKITC-32E")
 		(at 170.18 60.96 0)
 		(unit 1)
@@ -3211,6 +3499,160 @@
 		)
 	)
 	(symbol
+		(lib_name "robo:servo_motor")
+		(lib_id "robo:servo_motor")
+		(at 54.61 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bce2a80d-3fe6-4886-9120-a69c004237bb")
+		(property "Reference" "M2"
+			(at 58.42 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 58.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "02784bdd-6ea7-4168-be2d-b02bf6028d7e")
+		)
+		(pin "1"
+			(uuid "23991822-de73-4bac-b33e-07de59326958")
+		)
+		(pin ""
+			(uuid "8cecc1fb-53bd-4570-9e77-47640fd1268f")
+		)
+		(pin ""
+			(uuid "3a494f46-dd62-4b6e-832a-93c3403897b6")
+		)
+		(instances
+			(project "robocup2025_kicad_data"
+				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "robo:servo_motor")
+		(lib_id "robo:servo_motor")
+		(at 77.47 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca044880-c0c9-4ff8-bf7f-39b607ba7c41")
+		(property "Reference" "M4"
+			(at 81.28 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 81.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "120ccfc3-e917-497c-be3f-22f4e548c2df")
+		)
+		(pin "1"
+			(uuid "05a19572-de1d-4d4a-a5d1-6e9cb10c8a54")
+		)
+		(pin ""
+			(uuid "aaa7ccf6-80f4-4c4f-80fd-865560aefd7a")
+		)
+		(pin ""
+			(uuid "df045e76-59c8-42bf-80ba-6c3e3197ba4e")
+		)
+		(instances
+			(project "robocup2025_kicad_data"
+				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 82.55 33.02 0)
 		(unit 1)
@@ -3271,6 +3713,83 @@
 			(project ""
 				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
 					(reference "#FLG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "robo:servo_motor")
+		(lib_id "robo:servo_motor")
+		(at 66.04 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eac1d80d-4b6b-4d7c-8b97-6cad0c000f5e")
+		(property "Reference" "M3"
+			(at 69.85 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 69.85 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8567ee63-e513-46a6-a730-97e1ebca63b6")
+		)
+		(pin "1"
+			(uuid "97f5cdac-23e1-423a-85c5-ae57563edec8")
+		)
+		(pin ""
+			(uuid "6ab92fb1-f638-4b0f-a9f6-5ef2f4c48e5a")
+		)
+		(pin ""
+			(uuid "27cd4a22-bedf-4cad-b607-233f8c00a639")
+		)
+		(instances
+			(project "robocup2025_kicad_data"
+				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
+					(reference "M3")
 					(unit 1)
 				)
 			)
