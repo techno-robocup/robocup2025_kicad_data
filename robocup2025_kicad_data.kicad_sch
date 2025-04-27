@@ -1,15 +1,19 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "c41ae4e6-c818-4751-9662-d6273ae109e5")
 	(paper "A4")
 	(lib_symbols
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -100,6 +104,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "robo:ESP32-DEVKITC-32E"
 			(pin_names
@@ -294,6 +299,150 @@
 						)
 					)
 				)
+				(pin input line
+					(at -20.32 20.32 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 17.78 0)
+					(length 5.08)
+					(name "SENSOR_VP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 15.24 0)
+					(length 5.08)
+					(name "SENSOR_VN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 12.7 0)
+					(length 5.08)
+					(name "IO34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 10.16 0)
+					(length 5.08)
+					(name "IO35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "IO32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 5.08 0)
+					(length 5.08)
+					(name "IO33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "IO25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J2_9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at -20.32 0 0)
 					(length 5.08)
@@ -474,150 +623,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -20.32 20.32 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J2_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 17.78 0)
-					(length 5.08)
-					(name "SENSOR_VP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J2_3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 15.24 0)
-					(length 5.08)
-					(name "SENSOR_VN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J2_4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 12.7 0)
-					(length 5.08)
-					(name "IO34"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J2_5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 10.16 0)
-					(length 5.08)
-					(name "IO35"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J2_6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 7.62 0)
-					(length 5.08)
-					(name "IO32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J2_7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 5.08 0)
-					(length 5.08)
-					(name "IO33"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J2_8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 2.54 0)
-					(length 5.08)
-					(name "IO25"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J2_9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 20.32 22.86 180)
 					(length 5.08)
@@ -629,6 +634,150 @@
 						)
 					)
 					(number "J3_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 20.32 180)
+					(length 5.08)
+					(name "IO23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 17.78 180)
+					(length 5.08)
+					(name "IO22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 15.24 180)
+					(length 5.08)
+					(name "TXD0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 12.7 180)
+					(length 5.08)
+					(name "RXD0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 10.16 180)
+					(length 5.08)
+					(name "IO21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "GND_J3_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 5.08 180)
+					(length 5.08)
+					(name "IO19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "IO18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "J3_9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -816,151 +965,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 20.32 20.32 180)
-					(length 5.08)
-					(name "IO23"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J3_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 17.78 180)
-					(length 5.08)
-					(name "IO22"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J3_3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 15.24 180)
-					(length 5.08)
-					(name "TXD0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J3_4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 12.7 180)
-					(length 5.08)
-					(name "RXD0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J3_5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 10.16 180)
-					(length 5.08)
-					(name "IO21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J3_6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 7.62 180)
-					(length 5.08)
-					(name "GND_J3_7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J3_7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 5.08 180)
-					(length 5.08)
-					(name "IO19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J3_8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 2.54 180)
-					(length 5.08)
-					(name "IO18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "J3_9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "robo:LiPo_battery"
 			(exclude_from_sim no)
@@ -1060,6 +1066,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "robo:RASPBERRY_PI_4B_4GB"
 			(pin_names
@@ -1256,17 +1263,17 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 25.4 27.94 180)
+				(pin bidirectional line
+					(at -25.4 25.4 0)
 					(length 5.08)
-					(name "3V3"
+					(name "GPIO2/SDA1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1275,16 +1282,34 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 17.78 180)
+					(at -25.4 22.86 0)
 					(length 5.08)
-					(name "GPIO15/RXD0"
+					(name "GPIO3/SCL1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "10"
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 20.32 0)
+					(length 5.08)
+					(name "GPIO4/GPIO_GCKL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1311,24 +1336,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 10.16 0)
-					(length 5.08)
-					(name "GPIO18/GPIO_GEN1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at -25.4 12.7 0)
 					(length 5.08)
 					(name "GPIO27/GPIO_GEN2"
@@ -1346,17 +1353,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
+				(pin bidirectional line
+					(at -25.4 10.16 0)
 					(length 5.08)
-					(name "GND"
+					(name "GPIO18/GPIO_GEN1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "14"
+					(number "12"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1400,24 +1407,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 27.94 180)
-					(length 5.08)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at -25.4 2.54 0)
 					(length 5.08)
@@ -1429,78 +1418,6 @@
 						)
 					)
 					(number "18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -12.7 0)
-					(length 5.08)
-					(name "GPIO10/SPI_MOSI"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 30.48 180)
-					(length 5.08)
-					(name "5V"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -15.24 0)
-					(length 5.08)
-					(name "GPIO9/SPI_MISO"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "21"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1527,24 +1444,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 -10.16 0)
-					(length 5.08)
-					(name "GPIO11/SPI_SCLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at -25.4 -5.08 0)
 					(length 5.08)
 					(name "GPIO8/~{SPI_CE0}"
@@ -1555,24 +1454,6 @@
 						)
 					)
 					(number "24"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "25"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1591,6 +1472,60 @@
 						)
 					)
 					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 -10.16 0)
+					(length 5.08)
+					(name "GPIO11/SPI_SCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 -12.7 0)
+					(length 5.08)
+					(name "GPIO10/SPI_MOSI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 -15.24 0)
+					(length 5.08)
+					(name "GPIO9/SPI_MISO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1634,6 +1569,114 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 25.4 30.48 180)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 30.48 180)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 27.94 180)
+					(length 5.08)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 27.94 180)
+					(length 5.08)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 20.32 180)
+					(length 5.08)
+					(name "GPIO14/TXD0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 17.78 180)
+					(length 5.08)
+					(name "GPIO15/RXD0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 25.4 12.7 180)
 					(length 5.08)
@@ -1645,42 +1688,6 @@
 						)
 					)
 					(number "29"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 25.4 0)
-					(length 5.08)
-					(name "GPIO2/SDA1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "30"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1742,17 +1749,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
+				(pin bidirectional line
+					(at 25.4 2.54 180)
 					(length 5.08)
-					(name "GND"
+					(name "GPIO16"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "34"
+					(number "36"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1779,42 +1786,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 2.54 180)
-					(length 5.08)
-					(name "GPIO16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name "GPIO26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 25.4 -2.54 180)
 					(length 5.08)
 					(name "GPIO20"
@@ -1825,42 +1796,6 @@
 						)
 					)
 					(number "38"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 30.48 180)
-					(length 5.08)
-					(name "5V"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1887,16 +1822,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -15.24 180)
+					(at 25.4 -7.62 180)
 					(length 5.08)
-					(name "TR01"
+					(name "GPIO26"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "41"
+					(number "37"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1923,16 +1858,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 -20.32 180)
+					(at 25.4 -15.24 180)
 					(length 5.08)
-					(name "TR03"
+					(name "TR01"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "43"
+					(number "41"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1959,88 +1894,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -25.4 22.86 0)
+					(at 25.4 -20.32 180)
 					(length 5.08)
-					(name "GPIO3/SCL1"
+					(name "TR03"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 20.32 0)
-					(length 5.08)
-					(name "GPIO4/GPIO_GCKL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 20.32 180)
-					(length 5.08)
-					(name "GPIO14/TXD0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -27.94 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
+					(number "43"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2120,7 +1983,152 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 25.4 -27.94 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -27.94 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -27.94 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -27.94 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -27.94 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -27.94 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -27.94 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -27.94 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "robo:servo_motor"
 			(exclude_from_sim no)
@@ -2183,60 +2191,6 @@
 				)
 			)
 			(symbol "servo_motor_1_1"
-				(pin output line
-					(at -1.27 -3.81 90)
-					(length 2.54)
-					(name "Feed_back"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -3.81 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 1.27 -3.81 90)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -2.54 -3.81 90)
 					(length 2.54)
@@ -2255,7 +2209,62 @@
 						)
 					)
 				)
+				(pin output line
+					(at -1.27 -3.81 90)
+					(length 2.54)
+					(name "Feed_back"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -3.81 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -3.81 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(no_connect
@@ -3227,82 +3236,6 @@
 		)
 	)
 	(symbol
-		(lib_id "robo:servo_motor")
-		(at 41.91 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06a3ff39-a404-4fcb-ad09-8aabdf0d82ac")
-		(property "Reference" "M1"
-			(at 45.72 117.4749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 45.72 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "4534ee0a-6ce2-413e-8d7e-bd49bd5f1f50")
-		)
-		(pin ""
-			(uuid "0917a3f4-cd45-4b68-8b83-9846fd8d1fa2")
-		)
-		(pin "1"
-			(uuid "84333df8-1824-485b-800d-9f2bf821f69d")
-		)
-		(pin ""
-			(uuid "44c3f8da-caf2-45ae-82f2-b0fff6e4a1e6")
-		)
-		(instances
-			(project ""
-				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
-					(reference "M1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "robo:RASPBERRY_PI_4B_4GB")
 		(at 54.61 63.5 0)
 		(unit 1)
@@ -3640,18 +3573,17 @@
 		)
 	)
 	(symbol
-		(lib_name "robo:servo_motor")
 		(lib_id "robo:servo_motor")
-		(at 88.9 118.11 0)
+		(at 54.61 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4d3d4893-a4b0-4b3b-897c-0e44aedf5c98")
-		(property "Reference" "M5"
-			(at 92.71 117.4749 0)
+		(uuid "6271592f-86db-4f8c-bc28-6aa79f0a0851")
+		(property "Reference" "M2"
+			(at 58.42 117.4749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,7 +3592,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 92.71 119.38 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +3601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 118.11 0)
+			(at 54.61 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,7 +3610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 118.11 0)
+			(at 54.61 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3619,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 118.11 0)
+			(at 54.61 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,22 +3627,22 @@
 				(hide yes)
 			)
 		)
+		(pin "2"
+			(uuid "da6f2364-1ba9-4056-9cdd-ebb638054ca1")
+		)
 		(pin "1"
-			(uuid "bff3f8b0-e005-496f-a3cb-a461295551cd")
+			(uuid "eb6637ef-8392-4bc3-bcca-630311e8447b")
 		)
-		(pin ""
-			(uuid "44ef154c-e5d8-49ef-8d4e-5323cd6d2fd7")
+		(pin "4"
+			(uuid "0b755cd0-cc59-48ea-ba04-e839a390bd20")
 		)
-		(pin ""
-			(uuid "86749250-d79a-430e-873f-510b202b4840")
-		)
-		(pin ""
-			(uuid "56e27c09-0b8d-4e7a-b0b6-f5a5e403a503")
+		(pin "3"
+			(uuid "d7812fc7-3deb-40bd-ad16-d60eb19d42fd")
 		)
 		(instances
-			(project ""
+			(project "robocup2025_kicad_data"
 				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
-					(reference "M5")
+					(reference "M2")
 					(unit 1)
 				)
 			)
@@ -4072,7 +4004,6 @@
 		)
 	)
 	(symbol
-		(lib_name "robo:servo_motor")
 		(lib_id "robo:servo_motor")
 		(at 66.04 118.11 0)
 		(unit 1)
@@ -4081,7 +4012,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9044e0c7-e5bb-4e71-b441-e5e41344ca37")
+		(uuid "8ca19894-57d5-4167-ac68-2afb5b399f25")
 		(property "Reference" "M3"
 			(at 69.85 117.4749 0)
 			(effects
@@ -4127,20 +4058,20 @@
 				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "1c61509a-67bc-4315-b2e4-0a9f2c890d0e")
-		)
-		(pin ""
-			(uuid "d1c858e2-0cf7-4220-a863-f912a6829473")
-		)
-		(pin ""
-			(uuid "fccc5c90-0d64-4556-afaf-0867fc167a8b")
+		(pin "2"
+			(uuid "d5e5bb19-ab89-49e1-b6bc-b1c071c16f25")
 		)
 		(pin "1"
-			(uuid "0582c1e0-c903-4245-bc7c-73aefda15548")
+			(uuid "db1e7f71-db5d-4d24-82b7-6cdb6dfc3a9d")
+		)
+		(pin "4"
+			(uuid "8a9bfb31-d841-4a73-bc7c-ec876e2bf295")
+		)
+		(pin "3"
+			(uuid "dc69a287-61b8-4532-bc3a-f207c35b36a3")
 		)
 		(instances
-			(project ""
+			(project "robocup2025_kicad_data"
 				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
 					(reference "M3")
 					(unit 1)
@@ -4215,7 +4146,6 @@
 		)
 	)
 	(symbol
-		(lib_name "robo:servo_motor")
 		(lib_id "robo:servo_motor")
 		(at 77.47 118.11 0)
 		(unit 1)
@@ -4224,7 +4154,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c6b16997-b650-400c-b9a0-8886b088adb1")
+		(uuid "a52abe1a-4395-416e-8617-46ec8194d7ab")
 		(property "Reference" "M4"
 			(at 81.28 117.4749 0)
 			(effects
@@ -4270,20 +4200,20 @@
 				(hide yes)
 			)
 		)
+		(pin "2"
+			(uuid "920359f8-9d98-4423-8a49-016cca0e267e")
+		)
 		(pin "1"
-			(uuid "3495e5e4-d8db-46aa-a94f-f9cbb756e0c0")
+			(uuid "2cd3d809-1be5-427d-bdb4-d839b712d9c1")
 		)
-		(pin ""
-			(uuid "e18cb004-aaea-424a-ba81-fdc3070309c8")
+		(pin "4"
+			(uuid "01365dfc-a8ca-45a0-8eee-b5d77572dddc")
 		)
-		(pin ""
-			(uuid "65a51052-b2a7-48d2-a6e4-3d990cd0c013")
-		)
-		(pin ""
-			(uuid "a9097dc7-e767-4066-a06e-ca64d11a59c3")
+		(pin "3"
+			(uuid "a6064988-df42-45dc-802d-46e585e348c7")
 		)
 		(instances
-			(project ""
+			(project "robocup2025_kicad_data"
 				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
 					(reference "M4")
 					(unit 1)
@@ -4292,18 +4222,17 @@
 		)
 	)
 	(symbol
-		(lib_name "robo:servo_motor")
 		(lib_id "robo:servo_motor")
-		(at 54.61 118.11 0)
+		(at 88.9 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d391f770-4936-455d-b829-5b8bec23f66b")
-		(property "Reference" "M2"
-			(at 58.42 117.4749 0)
+		(uuid "aafd83e7-b060-4946-8004-1740dbfac494")
+		(property "Reference" "M5"
+			(at 92.71 117.4749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,7 +4241,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 58.42 119.38 0)
+			(at 92.71 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +4250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 118.11 0)
+			(at 88.9 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,7 +4259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 118.11 0)
+			(at 88.9 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +4268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 118.11 0)
+			(at 88.9 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,22 +4276,98 @@
 				(hide yes)
 			)
 		)
+		(pin "2"
+			(uuid "35c8b0d8-7ac7-4497-85f9-61d9dfa0fc25")
+		)
 		(pin "1"
-			(uuid "32e215a5-bdd2-4aef-b338-420cd9404997")
+			(uuid "8a4dfa34-6b65-474a-bbe9-886114ae6150")
 		)
-		(pin ""
-			(uuid "a6a18097-e13a-46f4-a2ef-2258ef3a4c39")
+		(pin "4"
+			(uuid "0664ad71-89e2-499b-82a0-0ea7a23e04a0")
 		)
-		(pin ""
-			(uuid "113338ec-c4ca-43fd-ab05-f8f4f166e0a9")
+		(pin "3"
+			(uuid "0501e41f-f038-4a88-b982-f3d173821790")
 		)
-		(pin ""
-			(uuid "8afa9d2e-980d-4b49-85dd-c70f36177c35")
+		(instances
+			(project "robocup2025_kicad_data"
+				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
+					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robo:servo_motor")
+		(at 41.91 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f18421b6-632b-4081-be77-cf9271cc5e42")
+		(property "Reference" "M1"
+			(at 45.72 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 45.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9a293fa-2aa7-4d50-83c7-11c06cc2ef78")
+		)
+		(pin "1"
+			(uuid "f4a20fcc-e400-49c0-8631-1f5a38e24c44")
+		)
+		(pin "4"
+			(uuid "4eb2ed88-ac7d-40da-97f1-90bf375f428c")
+		)
+		(pin "3"
+			(uuid "44a96e3b-4721-4c6d-b19a-2d7ee8f03f37")
 		)
 		(instances
 			(project ""
 				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
-					(reference "M2")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -4439,4 +4444,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
