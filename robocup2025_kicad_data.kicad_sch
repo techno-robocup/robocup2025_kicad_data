@@ -4285,7 +4285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RASPBERRY_PI_4B_4GB:MODULE_RASPBERRY_PI_4B_4GB"
+		(property "Footprint" "robo:MODULE_RASPBERRY_PI_4B_4GB"
 			(at 54.61 63.5 0)
 			(effects
 				(font
@@ -4622,7 +4622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:ultrasonic"
 			(at 133.35 118.11 0)
 			(effects
 				(font
@@ -4698,7 +4698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:servo_motor"
 			(at 54.61 118.11 0)
 			(effects
 				(font
@@ -4772,7 +4772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:LiPo"
 			(at 184.15 43.18 0)
 			(effects
 				(font
@@ -4840,7 +4840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-DEVKITC-32E:MODULE_ESP32-DEVKITC-32E"
+		(property "Footprint" "robo:MODULE_ESP32-DEVKITC-32E"
 			(at 125.73 60.96 0)
 			(effects
 				(font
@@ -5129,7 +5129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:servo_motor"
 			(at 66.04 118.11 0)
 			(effects
 				(font
@@ -5203,7 +5203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:ultrasonic"
 			(at 110.49 118.11 0)
 			(effects
 				(font
@@ -5345,7 +5345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:servo_motor"
 			(at 77.47 118.11 0)
 			(effects
 				(font
@@ -5421,7 +5421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:servo_motor"
 			(at 88.9 118.11 0)
 			(effects
 				(font
@@ -5497,7 +5497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:servo_motor"
 			(at 41.91 118.11 0)
 			(effects
 				(font
@@ -5571,7 +5571,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:ultrasonic"
 			(at 121.92 118.11 0)
 			(effects
 				(font
