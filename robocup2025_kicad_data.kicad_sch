@@ -4285,7 +4285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "robo:MODULE_RASPBERRY_PI_4B_4GB"
+		(property "Footprint" "robo:raspberrypi5 small"
 			(at 54.61 63.5 0)
 			(effects
 				(font
