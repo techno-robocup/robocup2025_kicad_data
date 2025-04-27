@@ -2284,10 +2284,6 @@
 		(uuid "0e41948e-519b-4efd-b6e0-5f47552fde10")
 	)
 	(no_connect
-		(at 86.36 121.92)
-		(uuid "0fce1ec2-8d19-411c-bcc2-a0f273d13715")
-	)
-	(no_connect
 		(at 105.41 58.42)
 		(uuid "16938e73-bf61-44e5-8057-d8e8ce8b97ed")
 	)
@@ -2304,20 +2300,12 @@
 		(uuid "1d55955b-0e98-4a2b-a641-d70156d1c528")
 	)
 	(no_connect
-		(at 52.07 121.92)
-		(uuid "2316fce8-5288-4e71-b8e5-8cffe2f3b638")
-	)
-	(no_connect
 		(at 80.01 83.82)
 		(uuid "27244554-712c-41c6-b394-c3047758ab26")
 	)
 	(no_connect
 		(at 146.05 40.64)
 		(uuid "2a67db59-5961-4491-8204-e3f7614110c0")
-	)
-	(no_connect
-		(at 105.41 73.66)
-		(uuid "2c9838d9-455d-4a9b-9daf-ea2fd96a93b3")
 	)
 	(no_connect
 		(at 80.01 55.88)
@@ -2356,10 +2344,6 @@
 		(uuid "52f59df1-8a1d-4ddd-99af-452958c2d2c1")
 	)
 	(no_connect
-		(at 105.41 66.04)
-		(uuid "56ace5da-01d9-49ff-b3ab-6d69fdf8cc3f")
-	)
-	(no_connect
 		(at 105.41 53.34)
 		(uuid "573dcc7d-9af7-4d9c-ac87-7391736f7f9b")
 	)
@@ -2370,10 +2354,6 @@
 	(no_connect
 		(at 80.01 68.58)
 		(uuid "5a942d44-6d8c-46b8-b53f-5d5349c3a7dc")
-	)
-	(no_connect
-		(at 146.05 66.04)
-		(uuid "62c868f6-cb1d-4e2b-9859-ee6ad7ffcf97")
 	)
 	(no_connect
 		(at 29.21 83.82)
@@ -2400,10 +2380,6 @@
 		(uuid "750f4820-4907-406d-9c7e-bac574b0e36c")
 	)
 	(no_connect
-		(at 146.05 76.2)
-		(uuid "786dd9c6-d204-4136-b568-ac2f6c32e9c8")
-	)
-	(no_connect
 		(at 29.21 86.36)
 		(uuid "7bc732db-0a81-4b4f-bd94-5b5b12a4b27e")
 	)
@@ -2424,14 +2400,6 @@
 		(uuid "8baa7e25-8317-4ce3-9c2d-59438a0ae494")
 	)
 	(no_connect
-		(at 105.41 48.26)
-		(uuid "92c09ab7-301c-4d93-98cd-93df5b48260b")
-	)
-	(no_connect
-		(at 39.37 121.92)
-		(uuid "94e573b3-76d3-44be-af87-c53d86492f95")
-	)
-	(no_connect
 		(at 80.01 53.34)
 		(uuid "95ceaa64-b1f3-4841-bcf4-bf59d4e11814")
 	)
@@ -2442,10 +2410,6 @@
 	(no_connect
 		(at 80.01 50.8)
 		(uuid "98389b4b-197c-465c-b8fa-00952d0ff491")
-	)
-	(no_connect
-		(at 146.05 63.5)
-		(uuid "a6246f78-5afd-4443-84cc-270c42da2202")
 	)
 	(no_connect
 		(at 80.01 78.74)
@@ -2520,10 +2484,6 @@
 		(uuid "e4e54751-6abb-44fe-a4c5-b5deb99cc951")
 	)
 	(no_connect
-		(at 87.63 121.92)
-		(uuid "e62c4f91-2026-4b75-a675-e5a3f0467da9")
-	)
-	(no_connect
 		(at 29.21 48.26)
 		(uuid "e81caf29-378b-4c40-852a-a1a3674ccc46")
 	)
@@ -2544,10 +2504,6 @@
 		(uuid "f3f773ee-0d7c-4437-a14a-b8b76cc74952")
 	)
 	(no_connect
-		(at 74.93 121.92)
-		(uuid "f4466d1f-b6dd-4b2c-8e3c-cb1fbb0a288e")
-	)
-	(no_connect
 		(at 146.05 83.82)
 		(uuid "f5767039-3215-438b-89d2-7f9e304aeb45")
 	)
@@ -2564,16 +2520,42 @@
 		(uuid "faa6dff0-79cf-4138-996b-639ddc69551b")
 	)
 	(no_connect
-		(at 63.5 121.92)
-		(uuid "fbc39ea9-7140-4b35-9f43-710823a5c54f")
-	)
-	(no_connect
 		(at 105.41 63.5)
 		(uuid "fd5c917a-c396-4e84-aadc-0ae2ffbb5244")
 	)
 	(no_connect
 		(at 105.41 38.1)
 		(uuid "fd74f234-429a-4cff-8f4f-77e36cca4ea7")
+	)
+	(wire
+		(pts
+			(xy 86.36 121.92) (xy 86.36 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034512b7-b0be-4f8b-9a8f-c2bac655f289")
+	)
+	(wire
+		(pts
+			(xy 101.6 66.04) (xy 105.41 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b50a04a-9da1-4332-8ff4-bf3bc087d7f7")
+	)
+	(wire
+		(pts
+			(xy 146.05 63.5) (xy 149.86 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a05b0d-2c67-4345-ab8c-46436eae98fd")
 	)
 	(wire
 		(pts
@@ -2647,6 +2629,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 121.92) (xy 87.63 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72627b94-af7a-43d6-bb00-08462208319b")
+	)
+	(wire
+		(pts
 			(xy 255.27 40.64) (xy 251.46 40.64)
 		)
 		(stroke
@@ -2654,6 +2646,16 @@
 			(type default)
 		)
 		(uuid "7abe73d7-18ac-4068-b2a1-b4cab835aede")
+	)
+	(wire
+		(pts
+			(xy 63.5 121.92) (xy 63.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e160627-5f31-4a5d-842b-bd6de768d688")
 	)
 	(wire
 		(pts
@@ -2677,6 +2679,26 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 121.92) (xy 39.37 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baff411c-e691-44f4-8617-03ea6e32d6a2")
+	)
+	(wire
+		(pts
+			(xy 101.6 48.26) (xy 105.41 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd691147-8f47-42fd-abb7-bcb17a158276")
+	)
+	(wire
+		(pts
 			(xy 175.26 43.18) (xy 179.07 43.18)
 		)
 		(stroke
@@ -2684,6 +2706,100 @@
 			(type default)
 		)
 		(uuid "c642dcdc-d034-4468-ae04-ac60c2e2f193")
+	)
+	(wire
+		(pts
+			(xy 74.93 121.92) (xy 74.93 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de401170-3fe9-414a-a370-5ced5fa92406")
+	)
+	(wire
+		(pts
+			(xy 101.6 73.66) (xy 105.41 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33e89f8-d40a-446b-a45c-f34162c8c010")
+	)
+	(wire
+		(pts
+			(xy 146.05 76.2) (xy 149.86 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7dd5847-1e18-436c-9756-2b267fa47dd8")
+	)
+	(wire
+		(pts
+			(xy 146.05 66.04) (xy 149.86 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8a7101-fa1d-4129-a488-a38ca74ef56b")
+	)
+	(wire
+		(pts
+			(xy 52.07 121.92) (xy 52.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7c42a9-0685-4c4e-bb8e-8bfe35412b8b")
+	)
+	(global_label "tyre_pulse_4"
+		(shape input)
+		(at 149.86 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0402ef71-8834-43d1-966f-6eb85a3be84a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.6379 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "tyre_pulse_3"
+		(shape input)
+		(at 149.86 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17e4b2f9-96b9-4feb-9fcd-47008244844e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.6379 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GND"
 		(shape input)
@@ -2817,6 +2933,28 @@
 			)
 		)
 	)
+	(global_label "arm_pulse"
+		(shape output)
+		(at 86.36 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ddb9885-6a4a-49cb-bfa2-23be2f961100")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 138.3912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "rasp_5V"
 		(shape input)
 		(at 255.27 38.1 0)
@@ -2852,6 +2990,28 @@
 		(uuid "638f1c89-8d72-43db-b6e6-b4df1ebbf742")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 57.15 128.7757 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "tyre_pulse_2"
+		(shape output)
+		(at 52.07 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69c1b71f-3451-4539-b7b9-3a324cbea0a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.07 140.5079 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,6 +3087,94 @@
 			)
 		)
 	)
+	(global_label "tyre_pulse_1"
+		(shape input)
+		(at 101.6 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "887aaa37-2f5d-42df-ae93-394a9716ef74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.3707 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "tyre_pulse_1"
+		(shape output)
+		(at 39.37 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8acab99b-7048-4528-995e-dfb3f24ad746")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 140.5079 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "arm_feedback"
+		(shape output)
+		(at 87.63 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90dfed46-0cd0-498a-adfd-9fdcaf33d0a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.63 138.3912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "tyre_pulse_4"
+		(shape output)
+		(at 74.93 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94e9c5ac-f04e-4dd9-be16-3934ccf88be7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.93 140.5079 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape bidirectional)
 		(at 149.86 43.18 0)
@@ -2984,6 +3232,28 @@
 		(uuid "9f1a43b3-94d3-4a64-8342-961dce50336e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 80.01 128.7757 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "tyre_pulse_3"
+		(shape output)
+		(at 63.5 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f388102-eb90-4c71-9994-d8bb4164e331")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 140.5079 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,6 +3329,28 @@
 			)
 		)
 	)
+	(global_label "arm_pulse"
+		(shape input)
+		(at 149.86 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7e3e0f4-b58f-432c-b2a2-cb2c2de64f61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.5212 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LiPo+"
 		(shape input)
 		(at 43.18 121.92 270)
@@ -3121,6 +3413,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "arm_feedback"
+		(shape input)
+		(at 101.6 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbe59510-0b9e-41c7-9041-54ce63709473")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.5521 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "tyre_pulse_2"
+		(shape input)
+		(at 101.6 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e34989fd-a214-4540-a541-85fe8f9b0dda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.3707 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
