@@ -2835,7 +2835,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 43.18) (xy 193.04 43.18)
+			(xy 208.28 52.07) (xy 212.09 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3055,7 +3055,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 43.18) (xy 179.07 43.18)
+			(xy 194.31 52.07) (xy 198.12 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3363,7 +3363,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 193.04 43.18 0)
+		(at 212.09 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3373,7 +3373,7 @@
 		)
 		(uuid "41afe33b-ee50-4af3-a1b5-36308d21e1f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.8957 43.18 0)
+			(at 218.9457 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +4111,7 @@
 	)
 	(global_label "LiPo+"
 		(shape input)
-		(at 175.26 43.18 180)
+		(at 194.31 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4121,7 +4121,7 @@
 		)
 		(uuid "d45012f8-e316-4af5-9fdd-08ea64c8d90f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.6505 43.18 0)
+			(at 185.7005 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +4950,7 @@
 	)
 	(symbol
 		(lib_id "robo:LiPo_battery")
-		(at 184.15 43.18 0)
+		(at 203.2 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4959,7 +4959,7 @@
 		(fields_autoplaced yes)
 		(uuid "7281e502-93fa-469b-87de-5d201293fd89")
 		(property "Reference" "L1"
-			(at 184.15 38.1 0)
+			(at 203.2 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,7 +4967,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 184.15 40.64 0)
+			(at 203.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +4975,7 @@
 			)
 		)
 		(property "Footprint" "robo:LiPo"
-			(at 184.15 43.18 0)
+			(at 203.2 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +4984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 43.18 0)
+			(at 203.2 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,7 +4993,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 43.18 0)
+			(at 203.2 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
