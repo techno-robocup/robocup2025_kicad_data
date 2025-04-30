@@ -6165,7 +6165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:servo_motor_3"
 			(at 161.29 125.476 0)
 			(effects
 				(font
