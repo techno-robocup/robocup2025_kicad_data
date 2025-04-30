@@ -5052,7 +5052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "robo:servo_motor"
+		(property "Footprint" "robo:servo_motor_4"
 			(at 54.61 118.11 0)
 			(effects
 				(font
@@ -5483,7 +5483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "robo:servo_motor"
+		(property "Footprint" "robo:servo_motor_4"
 			(at 66.04 118.11 0)
 			(effects
 				(font
@@ -5697,7 +5697,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:servo_motor_3"
 			(at 148.59 120.65 0)
 			(effects
 				(font
@@ -5770,7 +5770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "robo:servo_motor"
+		(property "Footprint" "robo:servo_motor_4"
 			(at 77.47 118.11 0)
 			(effects
 				(font
@@ -5846,7 +5846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "robo:servo_motor"
+		(property "Footprint" "robo:servo_motor_4"
 			(at 88.9 118.11 0)
 			(effects
 				(font
@@ -5990,7 +5990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "robo:servo_motor"
+		(property "Footprint" "robo:servo_motor_4"
 			(at 41.91 118.11 0)
 			(effects
 				(font
