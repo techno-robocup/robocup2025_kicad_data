@@ -2520,6 +2520,118 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "robo:voltmeter"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "voltmeter_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "voltmeter_1_1"
+				(pin power_out line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 194.31 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90ac1996-e9be-4e8f-9ca2-4b9a3327a4ce")
+	)
+	(junction
+		(at 213.36 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d30338e9-afe8-44b1-bcea-d3fdbabdf0bc")
 	)
 	(no_connect
 		(at 80.01 66.04)
@@ -2805,6 +2917,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 52.07) (xy 226.06 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101f02fc-f038-4f02-bafc-7948485a11f4")
+	)
+	(wire
+		(pts
 			(xy 146.05 63.5) (xy 149.86 63.5)
 		)
 		(stroke
@@ -2835,7 +2957,17 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 52.07) (xy 212.09 52.07)
+			(xy 213.36 41.91) (xy 213.36 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "357d6837-8843-4a69-99df-f3a2803a3a6c")
+	)
+	(wire
+		(pts
+			(xy 208.28 52.07) (xy 213.36 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3055,7 +3187,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 52.07) (xy 198.12 52.07)
+			(xy 194.31 41.91) (xy 194.31 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2aab984-3196-4fc5-aafc-b290592d2c0d")
+	)
+	(wire
+		(pts
+			(xy 184.15 52.07) (xy 194.31 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3142,6 +3284,16 @@
 			(type default)
 		)
 		(uuid "efe2e359-03bb-4301-a6c7-9d7d301742a1")
+	)
+	(wire
+		(pts
+			(xy 194.31 52.07) (xy 198.12 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f0a483-e532-4928-8d7b-d75652e13774")
 	)
 	(wire
 		(pts
@@ -3363,7 +3515,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 212.09 52.07 0)
+		(at 226.06 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3373,7 +3525,7 @@
 		)
 		(uuid "41afe33b-ee50-4af3-a1b5-36308d21e1f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.9457 52.07 0)
+			(at 232.9157 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +4263,7 @@
 	)
 	(global_label "LiPo+"
 		(shape input)
-		(at 194.31 52.07 180)
+		(at 184.15 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4121,7 +4273,7 @@
 		)
 		(uuid "d45012f8-e316-4af5-9fdd-08ea64c8d90f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.7005 52.07 0)
+			(at 175.5405 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,6 +5889,74 @@
 			(project "robocup2025_kicad_data"
 				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
 					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robo:voltmeter")
+		(at 203.2 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d547657f-75fb-4c4d-ae6d-6b3b0bcba1a2")
+		(property "Reference" "U6"
+			(at 203.835 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 203.835 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be13ee69-a8e9-4fa4-94d1-1bfd8c471016")
+		)
+		(pin "1"
+			(uuid "a605dcb3-cfa2-4908-9ffa-d3a7f1843169")
+		)
+		(instances
+			(project ""
+				(path "/c41ae4e6-c818-4751-9662-d6273ae109e5"
+					(reference "U6")
 					(unit 1)
 				)
 			)
