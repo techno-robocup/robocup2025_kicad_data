@@ -4812,7 +4812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "robo:fuse_holder"
 			(at 144.78 39.878 90)
 			(effects
 				(font
