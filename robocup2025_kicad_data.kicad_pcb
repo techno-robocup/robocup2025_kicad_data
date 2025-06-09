@@ -183,6 +183,158 @@
 	(net 40 "unconnected-(U2-IO4-PadJ3_13)")
 	(net 41 "unconnected-(U2-IO25-PadJ2_9)")
 	(net 42 "unconnected-(U2-IO5-PadJ3_10)")
+	(footprint "robo:2mm diameter through hole"
+		(layer "F.Cu")
+		(uuid "1d8d01e3-9ba4-499b-9362-65e131b4ccba")
+		(at 109 130)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a306f235-b1ca-4197-8a80-5adb4a55b742")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "2mm diameter through hole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "82ae3feb-356d-46f4-9ad6-7bcedd747fc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2af3ecf-8441-4f87-aa87-aaf13855d616")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "876f343b-3e44-410b-b037-a0631549007a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2d67f859-eeb2-4e58-96f8-ce5f050363ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 2)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "582a2e61-2679-4874-a4e0-b1296fe62e51")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "robo:2mm diameter through hole"
+		(layer "F.Cu")
+		(uuid "337b9cf3-066a-4907-bd48-444e0f31f548")
+		(at 109 40)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7a23fe10-98d0-4c4d-bac0-cd7ae9971495")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "2mm diameter through hole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8ba4f2ec-f263-4b5b-8bd8-3cae3aff1569")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cec1c96-1a46-42b7-ab82-a9f0a01450a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e0e82fa-c619-40c8-8349-343478453f73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "95a1ed3d-3e6f-486f-83dd-0267784edcf3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 2)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "e9386a26-e7ec-4baa-ae3c-3a72c913ccba")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "robo:servo_motor_4"
 		(layer "F.Cu")
 		(uuid "41b8a7b4-431f-4a67-913e-5e6781d77125")
@@ -1486,6 +1638,82 @@
 			(pintype "power_in")
 			(thermal_bridge_angle 45)
 			(uuid "9993a615-6155-416e-b172-1d8405c73078")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "robo:2mm diameter through hole"
+		(layer "F.Cu")
+		(uuid "804c41af-c948-448a-84a9-aedd105dacb0")
+		(at 189 40)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "98253226-8368-4f9c-a052-24855fa30a9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "2mm diameter through hole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0417c1ab-26da-445f-b6d1-216774a9d901")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "877087e0-e066-41e6-ad4f-219ad71b4e6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c9ed083-6568-45b5-986e-356b3754fc6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6ce3ba91-d6af-432f-a85c-ac8eda383214")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 2)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "db328422-68ea-4fe1-b7ac-2d96ddbf8fae")
 		)
 		(embedded_fonts no)
 	)
@@ -3367,6 +3595,82 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "robo:2mm diameter through hole"
+		(layer "F.Cu")
+		(uuid "dea3cbc8-c46b-4d1f-bac5-b2ff175f15fe")
+		(at 189 130)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "14140876-8933-4b36-94d8-1cef7d041cb7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "2mm diameter through hole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c546541a-6b02-490a-8dc3-b9d13e2a6399")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f942804-3e6a-432b-a29d-255a85aef027")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c18adb0-5300-4c78-889a-8473d2a6c2ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ce549df0-049e-49e4-8013-94253543d27b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 2)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "66054ac3-8bd6-4c28-bc21-ae4974cf5d9e")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "robo:servo_motor_4"
 		(layer "F.Cu")
 		(uuid "e5cfc2f2-b4e4-4160-b65d-0f147a3771f2")
@@ -3730,6 +4034,158 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "6e7ed819-3e39-4a7b-addc-c7280b20040e")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Edge.Cuts")
+		(uuid "94d03af1-6b16-42d6-80f7-87f0bfe2e41f")
+		(pts
+			(xy 109 40) (xy 109 130)
+		)
+		(height -17)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "90"
+			(at 90.85 85 90)
+			(layer "Edge.Cuts")
+			(uuid "94d03af1-6b16-42d6-80f7-87f0bfe2e41f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Edge.Cuts")
+		(uuid "9fe5b9dd-ed4e-4585-8c3d-215f805d88d5")
+		(pts
+			(xy 189 40) (xy 109 40)
+		)
+		(height -16)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "80"
+			(at 149 22.85 0)
+			(layer "Edge.Cuts")
+			(uuid "9fe5b9dd-ed4e-4585-8c3d-215f805d88d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Edge.Cuts")
+		(uuid "e0ca08f9-4eef-45f2-9775-d77244de930b")
+		(pts
+			(xy 189 40) (xy 189 130)
+		)
+		(height 17)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "90"
+			(at 204.85 85 90)
+			(layer "Edge.Cuts")
+			(uuid "e0ca08f9-4eef-45f2-9775-d77244de930b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Edge.Cuts")
+		(uuid "fdbc717d-0a90-4e8d-980b-f373d8e50441")
+		(pts
+			(xy 189 130) (xy 109 130)
+		)
+		(height 12)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "80"
+			(at 149 140.85 0)
+			(layer "Edge.Cuts")
+			(uuid "fdbc717d-0a90-4e8d-980b-f373d8e50441")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
