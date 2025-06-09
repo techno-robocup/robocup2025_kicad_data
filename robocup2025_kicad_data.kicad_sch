@@ -5751,7 +5751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "robo:tactile switch"
+		(property "Footprint" "robo:DS-850K-S-ON"
 			(at 144.78 48.26 0)
 			(effects
 				(font
