@@ -1489,6 +1489,158 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "robo:4mm diameter through hole"
+		(layer "F.Cu")
+		(uuid "7bcb1239-883e-4fa7-a60b-78079a85c060")
+		(at 189 130)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "85b01026-81a5-407f-8161-514a63e48179")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "4mm diameter through hole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "60d6fedc-9289-4130-8a1a-2684e8b27c29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14baa962-fbfd-4aea-94a3-466ae81131c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4613ad40-3a35-46ce-b019-e2d70214276f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4e328929-8115-4dad-ac96-5ccc0021c901")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 4)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "6f3559b6-eb5e-4e66-9d94-40a87fa9bc21")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "robo:4mm diameter through hole"
+		(layer "F.Cu")
+		(uuid "86ca3e1b-5575-4717-bf0d-dfb9321bfe8b")
+		(at 189 40)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b0b5b307-9876-4196-8f6c-acc02e6211f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "4mm diameter through hole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "218ae3a0-b435-4796-be96-9c2163bd818e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d610df0-de56-41a9-96bd-dd4ce6078b61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bfa3248-9338-4b0e-bf52-8bf3cc824949")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7bc3d34b-d715-4393-a71b-ab5cff68e4a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 4)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "64657a36-df53-4515-b13b-4e5b11e038fd")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "robo:fuse_holder"
 		(layer "F.Cu")
 		(uuid "8b395c70-b95d-49ce-a00e-3df0f1807d90")
@@ -2108,6 +2260,82 @@
 			(pinfunction "-")
 			(pintype "passive")
 			(uuid "f304d27e-5b6f-4861-ae8b-abcfc28e1219")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "robo:4mm diameter through hole"
+		(layer "F.Cu")
+		(uuid "be98b916-7fc4-4545-b501-85aa7a5ccabe")
+		(at 109 130)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2290b3ba-a984-445c-901d-75ed78433dd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "4mm diameter through hole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1c7d161f-38ab-4ab9-863d-60b7a21a3f55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75646994-a608-4b1c-9f58-90958b76d5c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0487389c-42db-4e98-95b4-2530872a1e94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "edfd54c4-ea0c-4103-94f9-e9f92cac1699")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 4)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "7de70355-b6a7-4d78-ac72-d6a99c307213")
 		)
 		(embedded_fonts no)
 	)
@@ -3364,6 +3592,82 @@
 			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "e8e81650-c669-47eb-b207-32c4c6b58292")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "robo:4mm diameter through hole"
+		(layer "F.Cu")
+		(uuid "db0e2c6a-e706-4837-a8ab-388372a865c2")
+		(at 109 40)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "05406ccb-1685-4852-a1d3-f6f0dac4b92e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "4mm diameter through hole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "036f0c08-cb2b-4183-82c8-301a8e44c615")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ca880de-289b-4f82-8488-0b88845c9b95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb7ca90c-530d-4b9e-b1b3-46040a105d88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "97d3e09a-06f6-49bc-a20a-38626aeb186c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 4)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "d22e06c5-2c26-4df6-924a-c33724a743ce")
 		)
 		(embedded_fonts no)
 	)
