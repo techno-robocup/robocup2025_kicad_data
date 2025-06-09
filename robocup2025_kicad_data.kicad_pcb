@@ -2488,7 +2488,7 @@
 	(footprint "robo:voltmeter"
 		(layer "F.Cu")
 		(uuid "bbce88b2-6c6d-4019-ae22-f06031705f12")
-		(at 139.958 113.7)
+		(at 140.462 113.411)
 		(property "Reference" "U6"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -3160,7 +3160,7 @@
 	(footprint "robo:fuse_holder"
 		(layer "F.Cu")
 		(uuid "ef7eca56-4773-43ff-a055-2755dcfe6417")
-		(at 190.754 116.87)
+		(at 141.986 117.602)
 		(property "Reference" "F1"
 			(at 0 -0.5 0)
 			(unlocked yes)
