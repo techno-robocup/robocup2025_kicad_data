@@ -2266,7 +2266,7 @@
 	(footprint "robo:4mm diameter through hole"
 		(layer "F.Cu")
 		(uuid "be98b916-7fc4-4545-b501-85aa7a5ccabe")
-		(at 108.4 130)
+		(at 108.8 130)
 		(property "Reference" "H2"
 			(at 0 -0.5 0)
 			(unlocked yes)
