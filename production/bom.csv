@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+F1,fuse_holder,1,Fuse,
+"H1, H2, H3, H4",4mm diameter through hole,4,4mm diameter through hole,
+L1,LiPo,1,~,
+"M1, M2, M3, M4, M5",servo_motor_4,5,~,
+M7,servo_motor_3,1,Motor_Servo,
+R1,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,1,R,
+S1,DS-850K-S-ON,1,tactile switch,
+U2,MODULE_ESP32-DEVKITC-32E,1,ESP32-DEVKITC-32E,
+"U3, U4, U5",ultrasonic,3,~,
+U6,voltmeter,1,~,
