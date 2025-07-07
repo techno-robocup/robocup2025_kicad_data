@@ -1622,282 +1622,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "robo:DS-850K-S-ON"
-		(layer "F.Cu")
-		(uuid "777ad0a6-58ad-4801-a007-95e9de64b79a")
-		(at 153.05 107.39)
-		(property "Reference" "S1"
-			(at 0 -0.5 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "7f1e7cc4-4f89-4968-94e2-39899601778d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "tactile switch"
-			(at 0 1 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "bff8d0cd-6d27-4aaf-b340-0a0aa93778b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c19fd654-4574-411a-8b58-3cdfaac63085")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "32d7a1ef-1a41-4e06-9152-042c46489678")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Comment" "4-1437565-0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9c2113a8-3d1e-4b08-b5f9-7559ec0ade42")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MF" "TE Connectivity"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5185e74a-a757-4a8f-af45-0a2d5fe1b322")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Through Hole\n"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9eea54fe-6406-4585-8263-a3f4977cd485")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b6a30b76-396b-4693-bd4e-05a36aeeeaa3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "afe4c71c-207c-4763-8872-c5c2a919a07f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/4-1437565-0/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dbe18b61-4ee5-45b5-928f-c073cf42c760")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "182f5809-c312-474b-8a40-3c8fca4ba29f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "P6"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f10c99b9-63fb-43a1-8637-d6c55dfed926")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/4-1437565-0/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d620a9b6-9a70-45c5-bf68-e440c06c76d7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MP" "4-1437565-0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d48c23c6-116a-4a9a-81f8-3472b150d49a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=287101&manufacturer=TE Connectivity&part_name=4-1437565-0&search_term=tactile switch"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96e7bc3e-bd8b-4efb-a764-2f1932592ee5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "014d824c-5956-475c-82bc-ee1863744209")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "TE CONNECTIVITY"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6737d729-90f6-4b07-b067-8d6f47355a41")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/e7900b92-6607-419e-812d-1ea81a265058")
-		(sheetname "/")
-		(sheetfile "robocup2025_kicad_data.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -8 -4)
-			(end 13 4)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "8586d743-941c-4d0e-abad-a3ba88cc7e78")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "2e72cb6d-8567-4330-b7e5-5abaf7f2c209")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole roundrect
-			(at -5 0 90)
-			(size 2.54 1.27)
-			(drill oval 2 0.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.15)
-			(net 16 "ESP32_21")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "6ac51c14-f386-4068-8f12-13b07abe11df")
-		)
-		(pad "2" thru_hole roundrect
-			(at 1 0 90)
-			(size 2.54 1.27)
-			(drill oval 2 0.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.15)
-			(net 17 "ESP32_3.3")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "da048079-467d-4786-8827-8c3dcaa6a034")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "robo:4mm diameter through hole"
 		(layer "F.Cu")
 		(uuid "7bcb1239-883e-4fa7-a60b-78079a85c060")
@@ -2182,6 +1906,282 @@
 			(drill 4)
 			(layers "F&B.Cu" "*.Mask")
 			(uuid "64657a36-df53-4515-b13b-4e5b11e038fd")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "robo:DS-850K-S-ON"
+		(layer "F.Cu")
+		(uuid "8ba6aec1-ded1-44cf-8414-dc56991dca07")
+		(at 153 107.5)
+		(property "Reference" "S1"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fb929718-1a79-4437-8f26-280f38915fdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "tactile switch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "66057d25-9c9b-4cde-b43c-42aab35387cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe8f38c4-9c2a-4959-b8a4-d30e28e57a3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d85ca815-255d-4f4a-b683-834e0f7ea688")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Comment" "4-1437565-0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f58be710-59a0-43da-bbe2-31a104438a77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3f89d3d-2445-4190-89cf-9bfebd249394")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Through Hole\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60f63ff1-5863-4aff-a988-167552f6c55c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a53f98b-55d4-4882-9587-9683dbee3b6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "381acad2-960d-46cd-b4ec-636761550544")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/4-1437565-0/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "700e99ed-3d1c-4154-ba39-14ec7c51cd0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d2a8abb-6b40-4e3c-9f51-f5f81f761961")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "P6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66f1526f-5fe9-46c5-84df-376768bde4f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/4-1437565-0/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f45e32f-6a70-4857-bfab-08052d58c2dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "4-1437565-0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72c7434f-62c0-4ea4-aebc-9b0e3310156c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=287101&manufacturer=TE Connectivity&part_name=4-1437565-0&search_term=tactile switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92448959-2018-474d-befa-bdda94b7d73b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09c8a27b-daee-433f-a35d-337f90407a80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "TE CONNECTIVITY"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fb382af-9117-4380-a0f9-01c617ff971a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e7900b92-6607-419e-812d-1ea81a265058")
+		(sheetname "/")
+		(sheetfile "robocup2025_kicad_data.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -8 -4)
+			(end 13 4)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "6fe55094-3c61-42a4-97f6-c837edc7cccc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9c324dc5-45d7-4d7d-92a0-3d076fd24a6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at -5 0 90)
+			(size 2.54 1.27)
+			(drill oval 2.5 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15)
+			(net 16 "ESP32_21")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "6dfaf55c-68d2-4360-9618-479c3596ed40")
+		)
+		(pad "2" thru_hole roundrect
+			(at 1 0 90)
+			(size 2.54 1.27)
+			(drill oval 2.5 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15)
+			(net 17 "ESP32_3.3")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "a5382b0d-6e90-4ab5-b9f2-3267426694c8")
 		)
 		(embedded_fonts no)
 	)
